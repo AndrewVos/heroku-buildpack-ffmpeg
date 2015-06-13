@@ -10,7 +10,6 @@ VENDOR_DIR="vendor"
 DOWNLOAD_URL="http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
-curl  | tar xvJ
 
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
